@@ -24,5 +24,15 @@ namespace kruhobvodobsah
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Aplikace otevřena");
+        }
+
+        private void Window_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Double clicked");
+        }
     }
 }
